@@ -1,0 +1,48 @@
+.landing_layout{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(".../../../../../public/Image/wave-haikei.png");
+    background-repeat: repeat-x;
+}
+
+.card{
+    /* border: 1px solid blue; */
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 500;
+    border-radius: 25px 25px 0 0 ;
+    color: #6a6262e3;
+    font-weight: 700;
+    font-size: 20px;
+}
+.user_list{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #9e9e9e5e;
+    padding: 5px 5px 15px 5px;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    font-weight: 600;
+    color: #867c7c;
+}
+.footer_card{
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+}
+.footer_card > label {
+    color: white;
+}

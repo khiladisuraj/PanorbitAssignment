@@ -1,0 +1,151 @@
+
+.container{
+    margin: 50px 50px 50px 70px;
+    /* border: 1px solid red; */
+}
+
+.sidebar_card {
+    width: 200px;
+    float: left;
+    height: 700px;
+    width: 270px;
+    background: #3526E8;
+    /* background: linear-gradient(135deg, #3526E8, #2F43C7); */
+    background: linear-gradient(135deg, #8078da, #182fc4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+    box-shadow: none;
+  }
+
+  .sidebar_card ul {
+    color: #808080fc;
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 24px;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .topbar > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h2{
+    color: rgb(54 50 50 / 69%);
+  }
+
+  .footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4141eb;
+    width: 240px;
+    color: white;
+    gap: 35px;
+    padding: 15px;
+    border-radius: 12px 12px 0px 0px;
+    cursor: pointer;
+  }
+  .popover{
+    position: absolute;
+    height: 400px;
+    bottom: 0px;
+    left: 0px;
+    width: fit-content;
+    background-color: white;
+    border: 0.5px solid blue;
+    border-radius: 12px 12px 0px 0px;
+  }
+  .popoverText{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    align-items: center;
+    gap: 13px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family:  monospace;
+  }
+  .popoverChat{
+    position: absolute;
+    height: 300px;
+    bottom: 10px;
+    right: 295px;
+    width: fit-content;
+    background-color: white;
+    border: 0.5px solid blue;
+    border-bottom: none;
+    border-radius: 12px 12px 0px 0px;
+    font-size: 12px;
+  }
+
+  .chatbox{
+    background-color: #9e9e9eba;
+    color: white;
+    margin: 10px 10px 10px 25px;
+    padding: 10px;
+    width: 150px;
+    height: fit-content;
+    font-size: 13px;
+    border-radius: 2px 5px 5px 5px;
+  }
+
+  .profilePopup{
+     position: absolute;
+     background-color: white;
+     height: 300px;
+     width: 270px;
+     border-radius: 30px;
+     right: 50px;
+     top: 120px;
+     padding: 20px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  .profileUsers{
+     border-bottom: 0.5px solid #80808073;
+     padding: 5px 5px 15px 50px ;
+     margin: 4px;
+     font-size: 15px;
+     cursor: pointer;
+  }
+  .signOut{
+    color: white;
+    background-color: rgba(206, 30, 30, 0.678);
+    width: fit-content;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .email{
+    color: #80808073 ;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  .hoverstyle{
+    background-color: white;
+    border-top-left-radius: 52px;
+    border-bottom-left-radius: 52px;
+    position: absolute;
+    left: 310px;
+    padding: 6px;
+    color:white;
+    width : 30px;
+  }
