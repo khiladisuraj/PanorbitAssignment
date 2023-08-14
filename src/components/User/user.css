@@ -1,0 +1,39 @@
+.body{
+    overflow-y: hidden;
+}
+
+
+h1{
+    color: #9e9e9e3b;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.coming_soon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_layout{
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+}
+.label{
+    color: gray;
+}
+.textValue{
+    color: #000000b3;
+    font-weight: 600;
+}
+.mapImage > div {
+   text-align: right;
+   font-size: 12px;
+   margin-top: 5px;
+}
+
+.mapImage > div > span {
+    margin-right: 10px;
+ }
+
